@@ -2,6 +2,10 @@
 
 ion-header {
   > ion-toolbar {
+    > ion-buttons {
+      > ion-back-button {
+      }
+    }
     > ion-title {
     }
   }

@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { PreloadAllModules, RouterModule, Routes } from "@angular/router";
 
 const routes: Routes = [
   {
@@ -12,8 +12,8 @@ const routes: Routes = [
     loadChildren: () => import('./pages/home/home.module').then(m => m.HomePageModule)
   },
   {
-    path: 'button-overview-example',
-    loadChildren: () => import('./pages/button-overview-example/button-overview-example.module').then(m => m.ButtonOverviewExamplePageModule)
+    path: 'button-example',
+    loadChildren: () => import('./pages/button-example/button-example.module').then(m => m.ButtonExamplePageModule)
   },
   {
     path: 'snackbar-example',
@@ -23,6 +23,14 @@ const routes: Routes = [
     path: 'dialog-example',
     loadChildren: () => import('./pages/dialog-example/dialog-example.module').then(m => m.DialogExamplePageModule)
   },
+  {
+    path: 'bottom-sheet-example',
+    loadChildren: () => import('./pages/bottom-sheet-example/bottom-sheet-example.module').then(m => m.BottomSheetExamplePageModule)
+  },
+  {
+    path: 'progress-bar-example',
+    loadChildren: () => import('./pages/progress-bar-example/progress-bar-example.module').then(m => m.ProgressBarExamplePageModule)
+  }
 ];
 
 @NgModule({

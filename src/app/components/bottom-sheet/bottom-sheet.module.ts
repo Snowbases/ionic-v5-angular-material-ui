@@ -3,13 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-import { BottomSheetModule } from './bottom-sheet/bottom-sheet.module';
-import { DialogModule } from './dialog/dialog.module';
+import { BottomSheetOverviewExampleModule } from './bottom-sheet-overview-example/bottom-sheet-overview-example.module';
 
 @NgModule({
   exports: [
-    DialogModule,
-    BottomSheetModule
+    BottomSheetOverviewExampleModule
   ]
 })
-export class ComponentsModule { }
+export class BottomSheetModule { }

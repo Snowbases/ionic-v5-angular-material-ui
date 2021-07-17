@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { ButtonOverviewExamplePage } from './button-overview-example.page';
+import { ProgressBarExamplePage } from './progress-bar-example.page';
 
-describe('ButtonOverviewExamplePage', () => {
-  let component: ButtonOverviewExamplePage;
-  let fixture: ComponentFixture<ButtonOverviewExamplePage>;
+describe('ProgressBarExamplePage', () => {
+  let component: ProgressBarExamplePage;
+  let fixture: ComponentFixture<ProgressBarExamplePage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ButtonOverviewExamplePage ],
+      declarations: [ ProgressBarExamplePage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ButtonOverviewExamplePage);
+    fixture = TestBed.createComponent(ProgressBarExamplePage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { MaterialDesignModule } from '../../shared/material-design/material-design.module';
-import { ButtonOverviewExamplePageRoutingModule } from './button-overview-example-routing.module';
-import { ButtonOverviewExamplePage } from './button-overview-example.page';
+import { ButtonExamplePageRoutingModule } from './button-example-routing.module';
+import { ButtonExamplePage } from './button-example.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ButtonOverviewExamplePageRoutingModule,
+    ButtonExamplePageRoutingModule,
     MaterialDesignModule
   ],
-  declarations: [ButtonOverviewExamplePage]
+  declarations: [ButtonExamplePage]
 })
-export class ButtonOverviewExamplePageModule {}
+export class ButtonExamplePageModule { }

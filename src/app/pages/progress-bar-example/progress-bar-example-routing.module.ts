@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ButtonOverviewExamplePage } from './button-overview-example.page';
+import { ProgressBarExamplePage } from './progress-bar-example.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: ButtonOverviewExamplePage
+    component: ProgressBarExamplePage
   }
 ];
 
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class ButtonOverviewExamplePageRoutingModule {}
+export class ProgressBarExamplePageRoutingModule {}

@@ -1,0 +1,46 @@
+ion-header {
+  > ion-toolbar {
+    > ion-buttons {
+      > ion-back-button {
+      }
+    }
+    > ion-title {
+    }
+  }
+}
+
+ion-content {
+  > ion-card {
+    margin: 1rem 0;
+
+    > ion-card-header {
+      > ion-card-subtitle {
+      }
+      > ion-card-title {
+      }
+    }
+
+    > ion-card-content {
+      .example-h2 {
+        margin: 10px;
+      }
+
+      .example-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 1rem 0;
+      }
+
+      .example-margin {
+        margin: 7px 10px;
+      }
+
+      > mat-progress-bar {
+      }
+    }
+  }
+}
