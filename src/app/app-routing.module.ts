@@ -23,6 +23,15 @@ const routes: Routes = [
     path: 'dialog-example',
     loadChildren: () => import('./pages/dialog-example/dialog-example.module').then(m => m.DialogExamplePageModule)
   },
+  {
+    path: 'card-example',
+    loadChildren: () => import('./pages/card-example/card-example.module').then(m => m.CardExamplePageModule)
+  },  {
+    path: 'checkbox-example',
+    loadChildren: () => import('./pages/checkbox-example/checkbox-example.module').then( m => m.CheckboxExamplePageModule)
+  },
+
+
 ];
 
 @NgModule({

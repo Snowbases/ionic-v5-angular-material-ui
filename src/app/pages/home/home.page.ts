@@ -17,7 +17,8 @@ export class HomePage {
   pages: Pages[] = [
     { url: '/button-overview-example', title: 'Button' },
     { url: '/snackbar-example', title: 'Snackbar' },
-    { url: '/dialog-example', title: 'Dialog' }
+    { url: '/dialog-example', title: 'Dialog' },
+    { url: '/card-example', title: 'Card' }
   ];
 
   constructor(
