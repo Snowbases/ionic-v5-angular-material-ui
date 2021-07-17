@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Demo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="container-list-button">
+    <div *ngFor="let page of pages" class="wrapper-button">
+      <button (tap)="navigateForward(page?.url)" mat-flat-button color="primary">{{ page?.title }}</button>
+    </div>
+  </div>
+</ion-content>

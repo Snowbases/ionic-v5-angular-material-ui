@@ -1,5 +1,7 @@
 {
-  "name": "ionic-v5-angular-material-design",
-  "integrations": {},
+  "name": "ionic-v5-angular-material-ui",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
