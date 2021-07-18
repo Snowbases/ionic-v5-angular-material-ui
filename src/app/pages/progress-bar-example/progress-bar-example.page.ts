@@ -12,10 +12,8 @@ export class ProgressBarExamplePage implements OnInit {
   mode: ProgressBarMode = 'determinate';
   value = 50;
   bufferValue = 75;
-  
+
   constructor() { }
 
-  ngOnInit() {
-  }
-
+  ngOnInit() { }
 }

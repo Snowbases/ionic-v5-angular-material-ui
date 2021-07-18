@@ -1,10 +1,7 @@
-import { CommonModule } from '@angular/common';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { IonicModule } from '@ionic/angular';
+import { NgModule } from "@angular/core";
 
-import { BottomSheetModule } from './bottom-sheet/bottom-sheet.module';
-import { DialogModule } from './dialog/dialog.module';
+import { BottomSheetModule } from "./bottom-sheet/bottom-sheet.module";
+import { DialogModule } from "./dialog/dialog.module";
 
 @NgModule({
   exports: [

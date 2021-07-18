@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { NavController } from '@ionic/angular';
+import { Component, OnInit } from "@angular/core";
+import { NavController } from "@ionic/angular";
 
 @Component({
   selector: 'app-button-example',
@@ -8,10 +8,11 @@ import { NavController } from '@ionic/angular';
 })
 export class ButtonExamplePage implements OnInit {
 
-  constructor(public navController: NavController) { }
+  constructor(
+    public navController: NavController
+  ) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
   async navigateForward(url: string): Promise<void> {
     try {
