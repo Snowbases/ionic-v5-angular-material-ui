@@ -1,13 +1,11 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-
 import { IonicModule } from '@ionic/angular';
+import { AngularMaterialModule } from 'src/app/shared/angular-material/angular-material.module';
 
 import { CheckboxExamplePageRoutingModule } from './checkbox-example-routing.module';
-
 import { CheckboxExamplePage } from './checkbox-example.page';
-import { MaterialDesignModule } from 'src/app/shared/material-design/material-design.module';
 
 @NgModule({
   imports: [
@@ -15,8 +13,10 @@ import { MaterialDesignModule } from 'src/app/shared/material-design/material-de
     FormsModule,
     IonicModule,
     CheckboxExamplePageRoutingModule,
-    MaterialDesignModule
+    AngularMaterialModule
   ],
-  declarations: [CheckboxExamplePage]
+  declarations: [
+    CheckboxExamplePage
+  ]
 })
 export class CheckboxExamplePageModule {}

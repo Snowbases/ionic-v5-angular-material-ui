@@ -1,7 +1,6 @@
-import * as Hammer from 'hammerjs';
-
 import { Injectable } from '@angular/core';
-import { HAMMER_GESTURE_CONFIG, HammerGestureConfig } from '@angular/platform-browser';
+import { HammerGestureConfig } from '@angular/platform-browser';
+import * as Hammer from 'hammerjs';
 
 @Injectable()
 export class HammerConfiguration extends HammerGestureConfig {
@@ -10,5 +9,3 @@ export class HammerConfiguration extends HammerGestureConfig {
     swipe: { direction: Hammer.DIRECTION_ALL }
   };
 }
-
-

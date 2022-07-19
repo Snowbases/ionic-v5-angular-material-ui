@@ -1,11 +1,11 @@
-import { CommonModule } from "@angular/common";
-import { NgModule } from "@angular/core";
-import { FormsModule } from "@angular/forms";
-import { IonicModule } from "@ionic/angular";
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { IonicModule } from '@ionic/angular';
 
-import { MaterialDesignModule } from "../../shared/material-design/material-design.module";
-import { ProgressBarExamplePageRoutingModule } from "./progress-bar-example-routing.module";
-import { ProgressBarExamplePage } from "./progress-bar-example.page";
+import { AngularMaterialModule } from '../../shared/angular-material/angular-material.module';
+import { ProgressBarExamplePageRoutingModule } from './progress-bar-example-routing.module';
+import { ProgressBarExamplePage } from './progress-bar-example.page';
 
 @NgModule({
   imports: [
@@ -13,8 +13,10 @@ import { ProgressBarExamplePage } from "./progress-bar-example.page";
     FormsModule,
     IonicModule,
     ProgressBarExamplePageRoutingModule,
-    MaterialDesignModule
+    AngularMaterialModule
   ],
-  declarations: [ProgressBarExamplePage]
+  declarations: [
+    ProgressBarExamplePage
+  ]
 })
-export class ProgressBarExamplePageModule { }
+export class ProgressBarExamplePageModule {}

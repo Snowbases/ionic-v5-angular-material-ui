@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-import { MaterialDesignModule } from '../../shared/material-design/material-design.module';
+import { AngularMaterialModule } from '../../shared/angular-material/angular-material.module';
 import { SnackbarExamplePageRoutingModule } from './snackbar-example-routing.module';
 import { SnackbarExamplePage } from './snackbar-example.page';
 
@@ -13,8 +13,10 @@ import { SnackbarExamplePage } from './snackbar-example.page';
     FormsModule,
     IonicModule,
     SnackbarExamplePageRoutingModule,
-    MaterialDesignModule
+    AngularMaterialModule
   ],
-  declarations: [SnackbarExamplePage]
+  declarations: [
+    SnackbarExamplePage
+  ]
 })
 export class SnackbarExamplePageModule {}

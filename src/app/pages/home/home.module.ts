@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-import { MaterialDesignModule } from '../../shared/material-design/material-design.module';
+import { AngularMaterialModule } from '../../shared/angular-material/angular-material.module';
 import { HomePageRoutingModule } from './home-routing.module';
 import { HomePage } from './home.page';
 
@@ -13,8 +13,10 @@ import { HomePage } from './home.page';
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    MaterialDesignModule
+    AngularMaterialModule
   ],
-  declarations: [HomePage]
+  declarations: [
+    HomePage
+  ]
 })
-export class HomePageModule { }
+export class HomePageModule {}

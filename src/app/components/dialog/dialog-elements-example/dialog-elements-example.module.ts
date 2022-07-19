@@ -3,8 +3,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-import { MaterialDesignModule } from '../../../shared/material-design/material-design.module';
-import { DialogElementsExampleDialogComponent } from './dialog-elements-example-dialog/dialog-elements-example-dialog.component';
+import { AngularMaterialModule } from '../../../shared/angular-material/angular-material.module';
+import {
+  DialogElementsExampleDialogComponent,
+} from './dialog-elements-example-dialog/dialog-elements-example-dialog.component';
 import { DialogElementsExampleComponent } from './dialog-elements-example.component';
 
 @NgModule({
@@ -16,11 +18,11 @@ import { DialogElementsExampleComponent } from './dialog-elements-example.compon
     CommonModule,
     FormsModule,
     IonicModule,
-    MaterialDesignModule
+    AngularMaterialModule
   ],
   exports: [
     DialogElementsExampleComponent,
     DialogElementsExampleDialogComponent
   ]
 })
-export class DialogElementsExampleModule { }
+export class DialogElementsExampleModule {}

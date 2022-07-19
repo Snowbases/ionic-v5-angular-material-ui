@@ -47,10 +47,10 @@ import { MatTreeModule } from '@angular/material/tree';
 @NgModule({
   exports: [
     A11yModule,
-    ClipboardModule,
     CdkStepperModule,
     CdkTableModule,
     CdkTreeModule,
+    ClipboardModule,
     DragDropModule,
     MatAutocompleteModule,
     MatBadgeModule,
@@ -60,11 +60,11 @@ import { MatTreeModule } from '@angular/material/tree';
     MatCardModule,
     MatCheckboxModule,
     MatChipsModule,
-    MatStepperModule,
     MatDatepickerModule,
     MatDialogModule,
     MatDividerModule,
     MatExpansionModule,
+    MatFormFieldModule,
     MatGridListModule,
     MatIconModule,
     MatInputModule,
@@ -82,6 +82,7 @@ import { MatTreeModule } from '@angular/material/tree';
     MatSlideToggleModule,
     MatSnackBarModule,
     MatSortModule,
+    MatStepperModule,
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
@@ -89,8 +90,7 @@ import { MatTreeModule } from '@angular/material/tree';
     MatTreeModule,
     OverlayModule,
     PortalModule,
-    ScrollingModule,
-    MatFormFieldModule
+    ScrollingModule
   ]
 })
-export class MaterialDesignModule { }
+export class AngularMaterialModule {}

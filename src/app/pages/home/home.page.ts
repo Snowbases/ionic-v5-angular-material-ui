@@ -1,10 +1,9 @@
-import { capitalCase } from "change-case";
-import { Subscription } from "rxjs";
-import { filter, first } from "rxjs/internal/operators";
-
-import { Component, OnInit, ViewEncapsulation } from "@angular/core";
-import { NavigationEnd, Router } from "@angular/router";
-import { NavController } from "@ionic/angular";
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
+import { NavController } from '@ionic/angular';
+import { capitalCase } from 'change-case';
+import { Subscription } from 'rxjs';
+import { filter, first } from 'rxjs/internal/operators';
 
 export interface Pages {
   url: string;

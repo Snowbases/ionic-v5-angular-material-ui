@@ -7,16 +7,22 @@ describe('CheckboxExamplePage', () => {
   let component: CheckboxExamplePage;
   let fixture: ComponentFixture<CheckboxExamplePage>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ CheckboxExamplePage ],
-      imports: [IonicModule.forRoot()]
-    }).compileComponents();
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [
+          CheckboxExamplePage
+        ],
+        imports: [
+          IonicModule.forRoot()
+        ]
+      }).compileComponents();
 
-    fixture = TestBed.createComponent(CheckboxExamplePage);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  }));
+      fixture = TestBed.createComponent(CheckboxExamplePage);
+      component = fixture.componentInstance;
+      fixture.detectChanges();
+    })
+  );
 
   it('should create', () => {
     expect(component).toBeTruthy();

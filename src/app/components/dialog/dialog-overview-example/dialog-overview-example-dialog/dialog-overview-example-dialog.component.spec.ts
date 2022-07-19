@@ -7,16 +7,22 @@ describe('DialogOverviewExampleDialogComponent', () => {
   let component: DialogOverviewExampleDialogComponent;
   let fixture: ComponentFixture<DialogOverviewExampleDialogComponent>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ DialogOverviewExampleDialogComponent ],
-      imports: [IonicModule.forRoot()]
-    }).compileComponents();
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [
+          DialogOverviewExampleDialogComponent
+        ],
+        imports: [
+          IonicModule.forRoot()
+        ]
+      }).compileComponents();
 
-    fixture = TestBed.createComponent(DialogOverviewExampleDialogComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  }));
+      fixture = TestBed.createComponent(DialogOverviewExampleDialogComponent);
+      component = fixture.componentInstance;
+      fixture.detectChanges();
+    })
+  );
 
   it('should create', () => {
     expect(component).toBeTruthy();

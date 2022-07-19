@@ -13,13 +13,14 @@ export interface DialogData {
 @Component({
   selector: 'app-dialog-data-example',
   templateUrl: './dialog-data-example.component.html',
-  styleUrls: ['./dialog-data-example.component.css']
+  styleUrls: [
+    './dialog-data-example.component.css'
+  ]
 })
 export class DialogDataExampleComponent implements OnInit {
+  constructor(public dialog: MatDialog) {}
 
-  constructor(public dialog: MatDialog) { }
-
-  ngOnInit() { }
+  ngOnInit() {}
 
   openDialog() {
     this.dialog.open(DialogDataExampleDialogComponent, {
@@ -28,5 +29,4 @@ export class DialogDataExampleComponent implements OnInit {
       }
     });
   }
-
 }

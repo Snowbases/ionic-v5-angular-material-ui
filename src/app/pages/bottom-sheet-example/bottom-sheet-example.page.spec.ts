@@ -7,16 +7,22 @@ describe('BottomSheetExamplePage', () => {
   let component: BottomSheetExamplePage;
   let fixture: ComponentFixture<BottomSheetExamplePage>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ BottomSheetExamplePage ],
-      imports: [IonicModule.forRoot()]
-    }).compileComponents();
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [
+          BottomSheetExamplePage
+        ],
+        imports: [
+          IonicModule.forRoot()
+        ]
+      }).compileComponents();
 
-    fixture = TestBed.createComponent(BottomSheetExamplePage);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  }));
+      fixture = TestBed.createComponent(BottomSheetExamplePage);
+      component = fixture.componentInstance;
+      fixture.detectChanges();
+    })
+  );
 
   it('should create', () => {
     expect(component).toBeTruthy();

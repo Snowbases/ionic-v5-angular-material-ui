@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-import { MaterialDesignModule } from '../../shared/material-design/material-design.module';
+import { AngularMaterialModule } from '../../shared/angular-material/angular-material.module';
 import { ButtonExamplePageRoutingModule } from './button-example-routing.module';
 import { ButtonExamplePage } from './button-example.page';
 
@@ -13,8 +13,10 @@ import { ButtonExamplePage } from './button-example.page';
     FormsModule,
     IonicModule,
     ButtonExamplePageRoutingModule,
-    MaterialDesignModule
+    AngularMaterialModule
   ],
-  declarations: [ButtonExamplePage]
+  declarations: [
+    ButtonExamplePage
+  ]
 })
-export class ButtonExamplePageModule { }
+export class ButtonExamplePageModule {}

@@ -8,10 +8,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
 import { HammerConfiguration } from './configuration/hammer-configuration';
-import { MaterialDesignModule } from './shared/material-design/material-design.module';
+import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent
+  ],
   imports: [
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -19,12 +21,14 @@ import { MaterialDesignModule } from './shared/material-design/material-design.m
     ComponentsModule,
     HammerModule,
     IonicModule.forRoot(),
-    MaterialDesignModule,
+    AngularMaterialModule
   ],
   providers: [
     { provide: HAMMER_GESTURE_CONFIG, useClass: HammerConfiguration },
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
-  bootstrap: [AppComponent],
+  bootstrap: [
+    AppComponent
+  ]
 })
-export class AppModule { }
+export class AppModule {}

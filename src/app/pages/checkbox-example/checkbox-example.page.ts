@@ -1,9 +1,11 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-checkbox-example',
   templateUrl: './checkbox-example.page.html',
-  styleUrls: ['./checkbox-example.page.scss'],
+  styleUrls: [
+    './checkbox-example.page.scss'
+  ]
 })
 export class CheckboxExamplePage implements OnInit {
   checked = false;
@@ -11,8 +13,7 @@ export class CheckboxExamplePage implements OnInit {
   labelPosition: 'before' | 'after' = 'after';
   disabled = false;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() { }
-
+  ngOnInit() {}
 }

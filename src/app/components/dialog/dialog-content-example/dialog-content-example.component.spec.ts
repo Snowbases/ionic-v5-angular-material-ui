@@ -1,7 +1,5 @@
 /* tslint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
 
 import { DialogContentExampleComponent } from './dialog-content-example.component';
 
@@ -9,12 +7,15 @@ describe('DialogContentExampleComponent', () => {
   let component: DialogContentExampleComponent;
   let fixture: ComponentFixture<DialogContentExampleComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ DialogContentExampleComponent ]
+  beforeEach(
+    async(() => {
+      TestBed.configureTestingModule({
+        declarations: [
+          DialogContentExampleComponent
+        ]
+      }).compileComponents();
     })
-    .compileComponents();
-  }));
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(DialogContentExampleComponent);

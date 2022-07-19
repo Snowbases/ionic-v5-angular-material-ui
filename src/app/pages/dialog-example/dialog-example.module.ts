@@ -15,6 +15,8 @@ import { DialogExamplePage } from './dialog-example.page';
     DialogExamplePageRoutingModule,
     ComponentsModule
   ],
-  declarations: [DialogExamplePage]
+  declarations: [
+    DialogExamplePage
+  ]
 })
-export class DialogExamplePageModule { }
+export class DialogExamplePageModule {}

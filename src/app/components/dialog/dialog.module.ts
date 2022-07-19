@@ -15,4 +15,4 @@ import { DialogOverviewExampleModule } from './dialog-overview-example/dialog-ov
     DialogOverviewExampleModule
   ]
 })
-export class DialogModule { }
+export class DialogModule {}

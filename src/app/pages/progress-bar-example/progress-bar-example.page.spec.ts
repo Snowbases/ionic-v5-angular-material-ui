@@ -7,16 +7,22 @@ describe('ProgressBarExamplePage', () => {
   let component: ProgressBarExamplePage;
   let fixture: ComponentFixture<ProgressBarExamplePage>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ ProgressBarExamplePage ],
-      imports: [IonicModule.forRoot()]
-    }).compileComponents();
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [
+          ProgressBarExamplePage
+        ],
+        imports: [
+          IonicModule.forRoot()
+        ]
+      }).compileComponents();
 
-    fixture = TestBed.createComponent(ProgressBarExamplePage);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  }));
+      fixture = TestBed.createComponent(ProgressBarExamplePage);
+      component = fixture.componentInstance;
+      fixture.detectChanges();
+    })
+  );
 
   it('should create', () => {
     expect(component).toBeTruthy();

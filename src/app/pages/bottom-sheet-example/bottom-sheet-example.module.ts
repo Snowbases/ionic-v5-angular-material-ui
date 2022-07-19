@@ -15,6 +15,8 @@ import { BottomSheetExamplePage } from './bottom-sheet-example.page';
     BottomSheetExamplePageRoutingModule,
     ComponentsModule
   ],
-  declarations: [BottomSheetExamplePage]
+  declarations: [
+    BottomSheetExamplePage
+  ]
 })
-export class BottomSheetExamplePageModule { }
+export class BottomSheetExamplePageModule {}

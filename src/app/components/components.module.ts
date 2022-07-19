@@ -1,7 +1,7 @@
-import { NgModule } from "@angular/core";
+import { NgModule } from '@angular/core';
 
-import { BottomSheetModule } from "./bottom-sheet/bottom-sheet.module";
-import { DialogModule } from "./dialog/dialog.module";
+import { BottomSheetModule } from './bottom-sheet/bottom-sheet.module';
+import { DialogModule } from './dialog/dialog.module';
 
 @NgModule({
   exports: [
@@ -9,4 +9,4 @@ import { DialogModule } from "./dialog/dialog.module";
     BottomSheetModule
   ]
 })
-export class ComponentsModule { }
+export class ComponentsModule {}
